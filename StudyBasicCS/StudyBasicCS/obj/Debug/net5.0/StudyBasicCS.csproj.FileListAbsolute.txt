@@ -1,0 +1,16 @@
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.exe
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.deps.json
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.runtimeconfig.json
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.runtimeconfig.dev.json
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.dll
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\ref\StudyBasicCS.dll
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\bin\Debug\net5.0\StudyBasicCS.pdb
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.dll
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\ref\StudyBasicCS.dll
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.pdb
+C:\Users\user\Documents\GitHub\CSStudyProject\StudyBasicCS\StudyBasicCS\obj\Debug\net5.0\StudyBasicCS.genruntimeconfig.cache
