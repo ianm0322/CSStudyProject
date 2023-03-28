@@ -22,11 +22,102 @@ namespace StudyBasicCS.Data_structure
             next = null;
         }
     }
+    class SingleLinkedListOther<T>
+    {
+        public T Data { get; set; }
+        public SingleLinkedListOther<T> Next;
+        public SingleLinkedListOther(T data)
+        {
+            this.Data = data;
+            this.Next = null;
+        }
+
+        private SingleLinkedListOther<T> head;
+
+        // 노드 추가 메소드
+        public void Add(SingleLinkedListOther<T> newNode)
+        {
+            if (head == null)           // 리스트가 비어있을 시 새 노드 할당
+                head = newNode;
+            else
+            {
+                var current = head;
+                while(current != null && current.Next != null)
+                {
+                    current = current.Next;
+                }
+                current.Next = newNode;
+            }
+        }
+
+        public void AddAfter(SingleLinkedListOther<T> current, SingleLinkedListOther<T> newNode)
+        {
+            if(head == null || current == null || newNode == null)
+            {
+                throw new InvalidOperationException();
+            }
+            newNode.Next = current.Next;
+            current.Next = newNode;
+        }
+
+        public void Remove(SingleLinkedListOther<T> removeNode) // 노드 삭제
+        {
+            if (head == null || removeNode == null)
+                return;
+            if(removeNode == head)
+            {
+                head = head.Next;
+                removeNode = null;
+            }
+            else
+            {
+                var current = head;
+                while (current != null && current.Next != removeNode)
+                    current = current.Next;
+                if(current != null)
+                {
+                    current.Next = removeNode.Next;
+                    removeNode = null;
+                }
+            }
+        }
+
+        public SingleLinkedListOther<T> GetNode(int index)      // index 위치의 노드 반환
+        {
+            var current = head;
+            for(int i = 0; i < index && current != null; i++)
+            {
+                current = current.Next;
+            }
+            return current;           
+        }
+
+        public void Print()
+        {
+            var current = head;
+            while(current != null)
+            {
+                Console.WriteLine(current.Data);
+                current = current.Next;
+            }
+        }
+
+        public int Count()
+        {
+            int cnt = 0;
+            var current = head;
+            while(current != null)
+            {
+                cnt++;
+                current = current.Next;
+            }
+            return cnt;
+        }
+    }
     class SinglyLinkedList<T>
     {
         // private field
-        private Node<T> _head;
-        private Node<T> _tail;
+        private Node<T> _head = new Node<T>();
         private int _count;
 
         // property
@@ -36,55 +127,10 @@ namespace StudyBasicCS.Data_structure
         {
         }
 
-        // InsertLast
-        public void InsertFront(T data)
+        // Insert
+        public void Add(T data, int idx)
         {
-            if(_head == null)
-            {
-                _head = new Node<T>(data);
-                _tail = _head;
-                _count++;
-                return;
-            }
-            var n = new Node<T>(data);
-            n.next = _head;
-            _head = n;
 
-            _count++;
-        }
-
-        public void InsertAt(T data, int idx)
-        {
-            if (idx < 0 || idx >= count)
-                throw new IndexOutOfRangeException();
-
-            if (_head == null)
-            {
-                _head = new Node<T>(data);
-                _tail = _head;
-            }
-            else if (count == 1 || idx == 0)
-            {
-                InsertFront(data);
-            }
-            else
-            {
-                var newNode = new Node<T>(data);
-
-                // idx-1번째 요소에 접근       // 1~idx까지 반복
-                var target = _head;
-                for (int i = 0; i < count - 1; i++)
-                {
-                    target = target.next;
-                }
-
-                // new node의 next = idx-1의 next
-                newNode.next = target;
-
-                // idx-1의 next = new node
-                target.next = newNode;
-            }
-            _count++;
         }
 
         // Remove
