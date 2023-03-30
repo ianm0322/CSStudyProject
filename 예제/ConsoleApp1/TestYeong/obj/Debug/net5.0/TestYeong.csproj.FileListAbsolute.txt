@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.exe
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.deps.json
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.runtimeconfig.json
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.runtimeconfig.dev.json
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.dll
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\ref\TestYeong.dll
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\bin\Debug\net5.0\TestYeong.pdb
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.AssemblyInfo.cs
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.dll
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\ref\TestYeong.dll
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.pdb
+C:\Users\user\source\repos\ConsoleApp1\TestYeong\obj\Debug\net5.0\TestYeong.genruntimeconfig.cache
