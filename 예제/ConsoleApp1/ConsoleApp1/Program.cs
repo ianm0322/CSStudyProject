@@ -5,13 +5,19 @@ namespace ConsoleApp1
 {
     class Program
     {
+        class Test
+        {
+        }
         static void WOW<T>(Queue<T> queue)
         {
             Console.WriteLine(queue.Dequeue());
         }
         static void Main(string[] args)
         {
+            // Tree
             {
+                Tree a = new Tree();
+                a.Main();
             }
             return;
 

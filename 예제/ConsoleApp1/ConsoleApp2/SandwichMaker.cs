@@ -43,8 +43,12 @@ namespace SandwishMaker
             }
 
             // wallet에 돈이 충분한지 확인한다.
+            foreach (KeyValuePair<eMoneyType, int> pair in wallet.moneyList)
+            {
+                
+            }
 
-            // Wallet에서 juice.price만큼의 돈을 제거한다.
+            // 있다면 Wallet에서 juice.price만큼의 돈을 제거한다.
 
             // juice 반환
 
@@ -86,11 +90,17 @@ namespace SandwishMaker
 
     class Wallet
     {
-        public Dictionary<int, int> moneyList = new Dictionary<int, int>();
+        public Dictionary<eMoneyType, int> moneyList = new Dictionary<eMoneyType, int>();   // <화폐, 개수>
 
+        //
+       
         public Wallet()
         {
-            moneyList = new Dictionary<int, int>();
+            moneyList = new Dictionary<eMoneyType, int>();
+            moneyList.Add(eMoneyType.백원, 0);
+            moneyList.Add(eMoneyType.오백원, 0);
+            moneyList.Add(eMoneyType.천원, 0);
+            moneyList.Add(eMoneyType.오천원, 0);
         }
     }
 
